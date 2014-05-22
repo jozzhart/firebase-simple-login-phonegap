@@ -1,4 +1,4 @@
-Firebase Simple Login for PhoneGap / Cordova Example
+Firebase Simple Login for PhoneGap Build Example
 =====================
 Firebase Simple Login allows you to easily enable authentication in your
 Firebase-powered application using only client-side code. Currently supports

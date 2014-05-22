@@ -3,6 +3,7 @@ var app = (function() {
   var auth;
 
   var showAlert = function() {
+    console.log('show alert');
     var fn, args = arguments;
     if (navigator && navigator.notification && navigator.notification.alert) {
       fn = navigator.notification.alert(msg);
@@ -16,6 +17,7 @@ var app = (function() {
 
   function init() {
     document.addEventListener('deviceready', function() {
+      console.log('device ready');
       // FirebaseSimpleLogin demo instantiation
       var firebaseRef = new Firebase('https://demos.firebaseio.com');
       auth = new FirebaseSimpleLogin(firebaseRef, function(error, user) {
